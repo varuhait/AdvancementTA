@@ -1,0 +1,17 @@
+name: AdvancementTA
+version: 0.0.1
+description: TA battle in Advancement
+api-version: 1.13
+author: varuhait
+main: com.github.varuhait.advancementta.Main
+
+commands:
+  so:
+    description: Randamize Advancements
+    
+  rdt:
+    description: Random team
+  t:
+    description: team chat
+  start:
+    description: start
