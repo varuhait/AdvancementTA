@@ -24,11 +24,11 @@ public class CreateGUIInventory implements CommandExecutor{
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		if(args.length != 1) {
-			sender.sendMessage(ChatColor.RED + "使用方法：/so モード(現状はvのみ)");
+			sender.sendMessage(ChatColor.RED + "使用方法：/so v");
 			return true;
 		}
 		if(args[0] != "v") {
-			sender.sendMessage(ChatColor.RED + "使用方法：/so モード(現状はvのみ)");
+			sender.sendMessage(ChatColor.RED + "使用方法：/so v");
 			return true;
 		}
 
